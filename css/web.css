@@ -1,0 +1,96 @@
+@font-face {
+  font-family: bebas;
+  src: url("../fonts/BEBAS.ttf");
+}
+@font-face {
+	font-family: lato;
+	src: url("../fonts/Lato-Regular.ttf");
+}
+@media (prefers-color-scheme: dark) {
+  img {
+    opacity: .75;
+    transition: opacity .5s ease-in-out;
+  }
+  img:hover {
+    opacity: 1;
+  }
+}
+:root {
+  --body-bg: #fafafa;
+  --body-color: #555;
+  --link-color: #222;
+  --link-color-hover: #000;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --body-bg: #212529;
+    --body-color: #6c757d;
+    --link-color: #dee2e6;
+    --link-color-hover: #fff;
+  }
+}
+#nav-ext{
+	background: none;
+	border: none;
+} 
+.navbar{
+	margin-top: 20px;
+}
+.navbar-default .navbar-brand,
+.navbar-default .navbar-brand:hover, 
+.navbar-default .navbar-brand:focus{
+	font-family: bebas;
+	font-size: 36px;
+	color: #C93C3E;
+}
+.navbar-default .navbar-brand span{
+	color: #F0673A;
+}
+.navbar-default .navbar-nav > li > a{
+	font-family: bebas;
+	font-size: 16px;
+}
+.navbar-default .navbar-nav > li > a.active,
+.navbar-default .navbar-nav > li > a:hover,
+.navber-default .navbar-nav > li > a:focus{
+	color:#F0676C;
+}
+#intro {
+	background-color: white;
+	opacity: 40%;
+	border: bold;
+	font: bebas;
+	font-size: 16px;
+}
+#icon-bar {
+  max-width: 100%
+}
+.sidenav {
+  height: 100%;
+  width: 200px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+}
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+#ava_Do {
+  float: left;
+  max-width: 100%;
+  margin: 0 0 0 0;
+  border-radius: 999px
+}

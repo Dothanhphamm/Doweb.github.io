@@ -1,0 +1,60 @@
+@font-face {
+  	font-family: bebas;
+  	src: url("../fonts/BEBAS.ttf");
+}
+@font-face{
+	font-family: georgia-bold;
+	src: url("../fonts/georgia-bold.ttf");
+}
+@font-face {
+	font-family: lato;
+	src: url("../fonts/Lato-Regular.ttf");
+}
+@font-size-base:          100px;
+@font-size-large:         ceil((@font-size-base * 1.25)); 
+@font-size-small:         ceil((@font-size-base * 0.85)); 
+
+@font-size-h1:            floor((@font-size-base * 2));
+@font-size-h2:            floor((@font-size-base * 2.15));
+@font-size-h3:            ceil((@font-size-base * 1.7));
+
+@line-height-base:        10px;
+@line-height-computed:    floor((@font-size-base * @line-height-base));
+
+body {
+	background: url("../assets/images/background1.png") no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+#headline_blog {
+	font: georgia-bold;
+	color: red;
+}
+#tag_blog {
+	font: bebas;
+	color: yellow;
+	font-size: 16px;
+	margin-bottom: 16px;
+}
+#time_blog {
+	font: bebas;
+	color: grey;
+	font-size: 16px;
+	margin-bottom: 16px;
+}
+.thumb {
+    width: 612px;
+    height: auto;
+    background-color: #3e3e3e;
+    background-image: none;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+.doc_blog {
+	font: bebas;
+	font-size: 16px;
+	color: white;
+}
